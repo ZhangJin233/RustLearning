@@ -1,0 +1,15 @@
+[package]
+name = "httpie"
+version = "0.1.0"
+authors = ["ZhangJin233 <jane.zhangjin@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+clap = "2.33.3"
+colored = "2"
+jsonxf = "1.0.1"
+reqwest = {version = "0.11",features = ["json"]}
+tokio = {version = "1",features = ["full"]}
